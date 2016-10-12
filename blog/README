@@ -1,0 +1,21 @@
+
+
+blog/
+$python manage.py runserver 
+
+http://127.0.0.1:8000/app1/index/
+http://127.0.0.1:8000/app1/books
+
+
+django连接mysql
+安装MySQLdb:
+
+https://github.com/PyMySQL/mysqlclient-python
+
+mysqlclient 是 MySQL-python的一个副本. 添加了对Python3 的支持 
+
+安装完之后： Python命令行
+
+>import MySQLdb回车
+没有报错，表示安装成功
+
