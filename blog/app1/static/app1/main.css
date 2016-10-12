@@ -1,0 +1,62 @@
+body,html{
+    height:100%;
+    /*background-color: #23202B;*/
+    /*background-image: linear-gradient(to bottom, #D38312, #A83279);*/
+    background-repeat: no-repeat;
+    color:#ffffff;
+    font-family: 'Helvetica', sans-serif;
+    background: linear-gradient(to right, rgba(34,44,55,1),rgba(201,32,91,0.4)), url(test.jpg);
+
+
+}
+
+div{
+    height:100%;
+    text-align:center;
+    padding-top: 20%;
+
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #222C37;
+    background:#F8EE2C;
+}
+
+::selection {
+    color:#222C37;
+    background:#F8EE2C;
+}
+
+
+h1{
+    font-family: 'Helvetica', sans-serif;
+    font-size:5em;
+
+}
+
+ul{
+font-family: "Apple SD Gothic Neo";
+list-style:none;
+}
+
+ul li{
+    margin:0 20px 20px 0; vertical-align:top;
+}
+
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a{
+    color:#ffffff;
+}
+
+a:hover{
+    -webkit-transform: scale(1.2);
+}

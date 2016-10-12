@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'app1/main.css' %}"/>
+    <title>Title</title>
+</head>
+<body>
+<nav>
+ <ul class="nav">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">News</a></li>
+  <li><a href="#">Contact</a></li>
+  <li><a href="#">About</a></li>
+  <li style="float:right"><a href="#">Login</a></li>
+  <li style="float:right"><a href="#">Register</a></li>
+
+</ul>
+</nav>
+<div>
+    <h1>{{ data }}</h1>
+</div>
+
+</body>
+</html>
